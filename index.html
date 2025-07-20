@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery with Filters - By Aman Gupta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Responsive Image Gallery with Filters</h1>
+<div class="filters">
+  <button onclick="filterImages('all')">All</button>
+  <button onclick="filterImages('nature')">Nature</button>
+  <button onclick="filterImages('animals')">Animals</button>
+  <button onclick="filterImages('Traveling')">Traveling</button>
+  <button onclick="filterImages('river')">River</button>
+</div>
+
+<div class="gallery">
+  <img src="image/animal01.jpg" alt="img1" data-category="animals">
+  <img src="image/nature03.webp" alt="img2" data-category="nature">
+  <img src="image/traveling02.jpg" alt="img3" data-category="Traveling">
+  <img src="image/traveling03.webp" alt="img4" data-category="Traveling">
+  <img src="image/river04.jpg" alt="img5" data-category="river">
+  <img src="image/travel01.jpg" alt="img6" data-category="Traveling">
+  <img src="image/animal03.jpg" alt="img1" data-category="animals">
+  <img src="image/nature04.webp" alt="img2" data-category="nature">
+  <img src="image/travel02.webp" alt="img3" data-category="Traveling">
+  <img src="image/animal04.jpg" alt="img4" data-category="animals">
+  <img src="image/nature02.webp" alt="img5" data-category="nature">
+  <img src="image/river03.jpg" alt="img6" data-category="river">
+  <img src="image/animals02.webp" alt="img1" data-category="animals">
+  <img src="image/nature01.jpeg" alt="img2" data-category="nature">
+  <img src="image/river02.jpg" alt="img3" data-category="river">
+  <img src="image/river.jpg" alt="img6" data-category="river">
+</div>
+
+<div class="lightbox" id="lightbox">
+  <img src="image/14587240-1-charcoal.jpeg" alt="lightbox-img" id="lightbox-img">
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
