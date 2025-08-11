@@ -1,11 +1,6 @@
 Responsive Image Gallery with Filters
 This is a web-based, responsive image gallery created using HTML, CSS, and JavaScript. The project showcases a collection of images that can be dynamically filtered by category using interactive buttons.
 
-Live Demo
-You can view the live version of this project here:
-
-
-
 
 Features:
 
