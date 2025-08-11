@@ -5,6 +5,7 @@ Live Demo
 You can view the live version of this project here:
 
 
+https://amangupta87410.github.io/CodeAlpha_Image_Gallery/
 
 
 
